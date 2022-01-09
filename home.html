@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+    <form action="http://localhost:3000/email" id="form" method="post">
+        <h2 id="details">Fill your details</h2>
+        <input name="name" type="text" placeholder="Enter your name" id="name"><br><br>
+        <input name="phone" type="text" placeholder="Enter your phone number" id="phone"><br><br>
+        <input name="email" type="email" placeholder="Enter your e-mail id" id="email"><br><br>
+        <input name="password" type="password" placeholder="Enter a password" id="pswd"><br><br>
+        <button type="submit" onclick="return validate() && phonenumber()">Send e-mail</button>
+        <!-- <a href="" type="button" onclick="return validate() && phonenumber()">Send e-mail</a> -->
+    </form>
+    <script src="./validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#welcome{
+    background-image: url(./christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-size: cover;
+}
+#home{
+    background-image: url(./chris-ried-ieic5Tq8YMk-unsplash.jpg);
+    background-size: cover;
+}
+h1{
+    margin-left: 15%;
+    margin-top: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkorchid;
+    font-weight: 800;
+}
+a{
+    margin-left: 50%;
+    color: gold;
+    background-color: hotpink;
+    padding: 1%;
+    border-color: hotpink;
+    text-decoration: none;
+}
+#form{
+    margin-top: 15%;
+    margin-left: 30%;
+    background-color: rgb(186, 216, 216);
+    height: 70%;
+    width:40%;
+    padding: 2%;
+    border: 2px solid brown;
+}
+input{
+    margin-left: 30%;
+}
+button{
+    margin-left: 40%;
+}
+#details{
+    text-align: center;
+    color: brown;
+}
